@@ -1,0 +1,9 @@
+@use '../abstracts/' as *;
+
+.button{
+  background-color: $menu-color;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 1em 2em;
+  display: block;
+}

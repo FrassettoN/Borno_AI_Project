@@ -1,0 +1,63 @@
+@use '../abstracts' as *;
+
+
+.home{
+  font-weight: bold;
+  padding-bottom: 2em;
+  position: relative;
+
+  h3{
+    text-transform: uppercase;
+  }
+
+  img{
+    width: 75%;
+    display: block;
+    margin: 1em auto;
+  }
+
+  @include responde-to(medium){
+    width: 100%;
+    padding: 0;
+    hr{
+      display: none;
+    }
+    h3, div{
+      margin: 0;
+    }
+
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 20em;
+      height: 20em;
+      margin-top: -10em; /* Half the height */
+      margin-left: -10em; /* Half the width */
+   }
+
+    .firstPart{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 4em 8em;
+
+      margin: 0;
+      background-color: $main-color;
+      color: white;
+    }
+    
+    .secondPart{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 4em 8em;
+      background-color: $second-color;
+      color: red;
+    }
+  }
+
+
+
+
+}

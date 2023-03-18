@@ -1,0 +1,18 @@
+@use '../abstracts' as *;
+
+
+.programma {
+  ol {
+    @include from-to(small, medium){
+      li {
+        margin: 1em 0;
+      }
+    }
+    @include responde-to(medium){
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+      gap: 0 2em;
+    }
+  }
+}
