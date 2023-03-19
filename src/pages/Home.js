@@ -55,23 +55,21 @@ function Home() {
         </NavLink>
         <hr />
 
-        <NavLink to='collabora'>
-          <div>
-            <h3>Collabora e Sostienici</h3>
-            <p>
-              Insieme possiamo creare un futuro migliore per la nostra comunità:
-              unisciti a noi per costruire un programma politico condiviso per
-              le imminenti elezioni!
-            </p>
-            <a
-              className={'button'}
-              href='https://www.repubblica.it/'
-              target={'_blank'}
-              rel='noreferrer'>
-              Apri il questionario
-            </a>
-          </div>
-        </NavLink>
+        <div>
+          <h3>Collabora e Sostienici</h3>
+          <p>
+            Insieme possiamo creare un futuro migliore per la nostra comunità:
+            unisciti a noi per costruire un programma politico condiviso per le
+            imminenti elezioni!
+          </p>
+          <a
+            className={'button'}
+            href='https://forms.gle/xUiZasvrukhZnt4v5'
+            target={'_blank'}
+            rel='noreferrer'>
+            Apri il questionario
+          </a>
+        </div>
       </div>
     </main>
   );

@@ -7,7 +7,7 @@ function Collabora() {
       <h4>Aiutaci facendoci sapere cosa ne pensi di noi:</h4>
       <a
         className={'button'}
-        href='https://www.repubblica.it/'
+        href='https://forms.gle/xUiZasvrukhZnt4v5'
         target={'_blank'}
         rel='noreferrer'>
         Apri il questionario
