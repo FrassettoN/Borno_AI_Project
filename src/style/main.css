@@ -215,18 +215,24 @@ ol li span {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 4em 8em;
+    padding: 4em 5em;
     margin: 0;
     background-color: #0106F9;
     color: white;
+  }
+  .home .firstPart div {
+    width: 20em;
   }
   .home .secondPart {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 4em 8em;
+    padding: 4em 5em;
     background-color: #12E80F;
     color: red;
+  }
+  .home .secondPart div {
+    width: 20em;
   }
 }
 

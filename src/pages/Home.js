@@ -44,14 +44,13 @@ function Home() {
               <li>Turismo sostenibile</li>
               <li>Qualità</li>
               <li>Inclusione</li>
-              <p>
-                Programma politico per rilanciare il territorio attraverso lo
-                sviluppo delle attività turistiche, la valorizzazione del
-                patrimonio culturale e naturale, la creazione di nuove
-                opportunità lavorative e di servizi adeguati per tutte le fasce
-                d'età.
-              </p>
             </ul>
+            <p>
+              Programma politico per rilanciare il territorio attraverso lo
+              sviluppo delle attività turistiche, la valorizzazione del
+              patrimonio culturale e naturale, la creazione di nuove opportunità
+              lavorative e di servizi adeguati per tutte le fasce d'età.
+            </p>
           </div>
         </NavLink>
         <hr />
